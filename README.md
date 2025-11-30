@@ -56,6 +56,13 @@
     - Forge 测试、Cast 交互、Anvil 本地节点
     - 完整的命令速查表和最佳实践
 
+### AI 开发工具
+- [MCP - Model Context Protocol 配置](./mcp/)
+  - GitHub Copilot CLI 的 MCP 服务器配置
+  - 常用 MCP 服务器配置指南
+  - 配置迁移和安全最佳实践
+  - Context7、Workflow3、Playwright 等集成
+
 ## 📝 说明
 
 本仓库用于记录日常开发中遇到的工具、技术和解决方案，便于快速查阅和复习。

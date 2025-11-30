@@ -1,0 +1,43 @@
+{
+  "mcpServers": {
+    "workflow3": {
+      "type": "local",
+      "command": "npx",
+      "args": [
+        "-y",
+        "--registry",
+        "https://registry.npmmirror.com",
+        "workflow3"
+      ],
+      "tools": ["*"]
+    },
+    "context7": {
+      "type": "http",
+      "url": "https://mcp.context7.com/mcp",
+      "headers": {
+        "CONTEXT7_API_KEY": "REPLACE_WITH_YOUR_KEY"
+      },
+      "tools": [
+        "get-library-docs",
+        "resolve-library-id"
+      ]
+    },
+    "chrome-devtools": {
+      "type": "local",
+      "command": "npx",
+      "args": [
+        "-y",
+        "chrome-devtools-mcp@latest"
+      ],
+      "tools": ["*"]
+    },
+    "Playwright": {
+      "type": "local",
+      "command": "npx",
+      "args": [
+        "@playwright/mcp@latest"
+      ],
+      "tools": ["*"]
+    }
+  }
+}
